@@ -4,12 +4,12 @@ spring:
       enabled: true
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/asset-manager
-    username: postgres
-    password: 12345678
+    url: ${POSTGRESS_URL}
+    username: ${POSTGRESS_USERNAME}
+    password: ${POSTGRESS_PASSWORD}
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     properties:
