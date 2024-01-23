@@ -56,7 +56,7 @@ public class ApplicationConfiguration {
         return (request, response, authException) -> {
             String jsonResponse = "{" +
                     "\"message\":\"access denied\"," +
-                    "\"status\":\"error\""+
+                    "\"status\":\"error\","+
                     "\"data\":null"+
                     "}"
                     ;
