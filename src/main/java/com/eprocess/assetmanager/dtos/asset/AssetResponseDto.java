@@ -19,6 +19,7 @@ public class AssetResponseDto {
     private String imageURL;
     private String returnReason;
     private String returnImageURL;
+    private String serialNumber;
     private Boolean isReturned;
     private Date receivedDate;
     private Date returnDate;

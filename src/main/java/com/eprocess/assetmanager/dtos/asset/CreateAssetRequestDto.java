@@ -20,6 +20,8 @@ public class CreateAssetRequestDto {
     private String accessories;
     @NotBlank(message = "image is required")
     private String imageURL;
+    @NotNull(message = "serial number is required")
+    private String serialNumber;
     @NotNull(message = "receive date is required")
     private Date receivedDate;
 }

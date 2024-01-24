@@ -72,6 +72,7 @@ public class AssetService {
                 .name(request.getName())
                 .receivedDate(request.getReceivedDate())
                 .accessories(request.getAccessories())
+                .serialNumber(request.getSerialNumber())
                 .createdAt(new Date())
                 .updatedAt(new Date())
                 .receivedDate(request.getReceivedDate())
